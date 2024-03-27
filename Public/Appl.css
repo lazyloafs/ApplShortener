@@ -1,0 +1,58 @@
+body {
+    background-color: #e0e5ec; /* Light background for neomorphic effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Sarabun', sans-serif; /* Setting Sarabun as the font */
+    margin: 0;
+    background: linear-gradient(145deg, #cfd9df, #e2ebf0); /* Adding a slight blue tone */
+  }
+  
+  #urlShortenerContainer {
+    background: #e0e5ec; /* Slight blue tone background */
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px #d1d9e6,
+                -20px -20px 50px #ffffff;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(145deg, #cfd9df, #e2ebf0); /* Enhancing the blue tone */
+  }
+  
+  #urlInput, #shortenBtn, #copyBtn {
+    border: none;
+    outline: none;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 6px #babecc,
+                inset -6px -6px 6px #ffffff;
+    background: #e0e5ec; /* Base color for the input and buttons */
+  }
+  
+  #shortenBtn, #copyBtn {
+    width: auto;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #e0e5ec;
+    transition: background-color 0.3s ease;
+    color: #6e7e85; /* Adding a hint of color to text for better readability */
+  }
+  
+  #shortenBtn:hover, #copyBtn:hover {
+    background-color: #ccd5df; /* Lighter blue for hover effect */
+  }
+  
+  #shortenedUrl {
+    margin-top: 20px;
+    color: #6e7e85;
+  }
+  
+  #shortenedUrlContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adding some space between the URL and the button */
+  }
+  
